@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20221027/pngtree-elegant-gradient-black-with-slice-shadow-image_1469341.jpg');
+    background-size:cover;
+    }
+#pragraph{
+    padding-top:10px;
+    margin-left:200px;
+    margin-right:200px;
+    color:white;
+}
+#link{
+    height:200px;
+    width:400px;
+    border-radius:20px;
+    margin-bottom:30px;
+    
+}
+
+
+</style>
+<body>
+    <div id="pragraph">
+    <strong>YOUTUBE:</strong>
+    <p>
+        you just need to provide the link of your youtube account for the grow up your 
+        youtube channel<br>
+    </p>
+
+    <form action='data.php' method='post'>
+        <label style='font-size:20px;color:gold;'>Enter the link---></label>
+        <br>
+        <input type='link' id='link' name='ytlink'><br>
+
+        <label style='font-size:20px;color:gold;'>Enter your video link </label><br>
+<input type='video' id='link' name='videolink'><br>
+
+<label style='font-size:20px;color:gold;'>Enter your email</label>
+<input style='border-radius:8px;height:20px;' type='email' name='email'>
+<input style='border-radius:8px;'type='submit' name='submit'><br>
+
+</form> <br><br>
+<strong style="margin-left:120px;background-color:black;color:white;" onclick="back()">GO Back</strong>
+</div>
+<br>
+</body>
+<script>
+function back(){
+    window.location.href="dashboard.php";
+}
+
+
+
+
+</script>
+</html>

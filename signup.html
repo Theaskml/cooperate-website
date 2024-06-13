@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#login{
+       background-color:darkgrey;
+        margin-left: 420px;
+        margin-top: 70px;
+        margin-right: 420px;
+        border-radius: 15px;
+        padding-bottom: 150px;
+        padding-top:40px;
+}
+
+
+</style>
+<body style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWOrNFje0NYKzyMh2V6ZgEV-rEUuGzYAJXLsfhexqYvrcjMbzC_8ZTTXhGVoX1I1DiNw&usqp=CAU')";>
+    <div id="login">
+
+        <h1 style="margin-left:120px;">Log in</h1><br>
+        <form action= "connection.php" method="POST">
+            <label >&nbsp;&nbsp;&nbsp;&nbsp;Email address:</label>
+            <input style="border-radius: 8px;width: 200px;height: 20px;"type="email" name="email2" required>
+            <br><br><br>
+            <label for="password">&nbsp;&nbsp;&nbsp;&nbsp;Password:</label>
+            <input style="margin-left: 22px;border-radius: 8px;width: 200px;height: 20px;"type="password" name='password2' required><br><br><br>
+            <button onclick="submit()" style="border-radius: 8px;font-size:18px;margin-left: 150px;margin-top:20px;">SubMit</button>
+        </form>
+    </div>
+ 
+<script>
+   function submit(){
+       window.location.href="dashboard.php";
+   }
+ </script>
+</html>
