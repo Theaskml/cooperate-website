@@ -16,6 +16,87 @@
         padding-bottom: 150px;
         padding-top:40px;
     }
+    #name{
+        font-size: smaller;
+        border-radius: 8px;
+        height: 30px; 
+        width: 240px;
+    } 
+     #email{
+        font-size: smaller;
+        border-radius: 8px;
+        height: 30px; 
+        width: 240px;
+    }
+
+    #contact{
+        font-size: smaller;
+        border-radius: 8px;
+        height: 30px; 
+        width: 240px;
+    }
+    #password{
+        
+        font-size: smaller;
+        border-radius: 8px;
+        height: 30px; 
+        width: 240px;
+    
+
+    }
+    #button{
+        color:black;
+        font-size: 30px;
+        background-color:burlywood;
+        border-radius: 8px;
+
+    }
+
+    @media (max-width:768px){
+        #forms{
+        background-color: darkgrey;
+        margin-left: 125px;
+        margin-top: 40px;
+        margin-right: 125px;
+        border-radius: 10px;
+        padding-bottom: 25px;
+        padding-top:25px;
+
+    }
+    #name{
+        font-size: 10px;
+        border-radius: 8px;
+        height: 15px; 
+        width: 150px;
+    } 
+     #email{
+        font-size: 10px;
+        border-radius: 8px;
+        height: 15px; 
+        width: 150px;
+    }
+
+    #contact{
+        font-size: 10px;
+        border-radius: 8px;
+        height: 15px; 
+        width: 150px;
+    }
+    #password{
+        
+        font-size: 10px;
+        border-radius: 8px;
+        height: 15px; 
+        width: 150px;
+    }
+label{
+    font-size:10px;
+}
+button{
+    font-size:15px;
+}
+
+    }
 </style>
 <body style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWOrNFje0NYKzyMh2V6ZgEV-rEUuGzYAJXLsfhexqYvrcjMbzC_8ZTTXhGVoX1I1DiNw&usqp=CAU')">
   <div  id="forms">
@@ -23,18 +104,18 @@
         <form  id= "registration"style="text-align: center; color: black;"   method="post" action="index.php">
            
             <label>Enter your name:</label><br>
-            <input style="font-size: smaller;border-radius: 8px;height: 30px; width: 240px;" name="name" id="name" type="text" placeholder="Enter your full name" required><br><br>
+            <input  name="name" id="name" type="text" placeholder="Enter your full name" required><br><br>
             
             <label>Enter your email address:</label><br>
-            <input style="font-size: smaller;border-radius: 8px;height: 30px; width: 240px;" name="email" id="email" type="email" placeholder="Enter your appropriate email" required><br><br>
+            <input  name="email" id="email" type="email" placeholder="Enter your appropriate email" required><br><br>
           
             <label>Enter your contact number</label>  <br>
-            <input style="font-size: smaller;border-radius: 8px;height: 30px; width: 240px;" name="contact" id="contact" type="number" placeholder="Enter the contact number" required><br><br>
+            <input  name="contact" id="contact" type="number" placeholder="Enter the contact number" required><br><br>
             
             <label>Enter the strong password</label>  <br>
-            <input style="font-size: smaller;border-radius: 8px;height: 30px; width: 240px;" name="password" id="password" type="password" placeholder="Enter the password" required ><br><br>
+            <input name="password" id="password" type="password" placeholder="Enter the password" required ><br><br>
             <br><br>
-            <button onclick="signin()" style="color:black;font-size: 30px;background-color:burlywood;border-radius: 8px;" name="submit">Submit</button>
+            <button onclick="signin()" style="button" name="submit">Submit</button>
             <br>
         
         </form>
