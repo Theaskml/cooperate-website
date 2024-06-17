@@ -5,9 +5,9 @@ $servername = "sql12.freesqldatabase.com";
 $username ="sql12714196";
 $password = "WtY2YeQHhm";
 $dbname ="sql12714196";
+$portnumber="3306";
 
-
-$conn = mysqli_connect($servername,$username,$password,$dbname);
+$conn = mysqli_connect($servername,$username,$password,$dbname,$portnumber);
 if($conn ==false){
     echo "connection failed";
      
