@@ -1,9 +1,10 @@
 <?php
 session_start();
-$servername = "sql105.infinityfree.com";
-$username ="if0_36710490";
-$password = "Saugat980";
-$dbname ="if0_36710490_Client_details";
+$servername = "sql12.freesqldatabase.com";
+$username ="sql12714196";
+$password = "WtY2YeQHhm";
+$dbname ="sql12714196";
+
 
 $conn = mysqli_connect($servername,$username,$password,$dbname);
 if($conn ==false){
